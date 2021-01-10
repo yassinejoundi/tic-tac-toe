@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Toc Toe Game</title>
+</head>
+<body>
+    <h1>Tic Tac Toe Game</h1>
+    <div class="end">
+      <p id="endText"></p>
+      <button class="replay">Replay</button>
+    </div>
+
+    <table>
+      <tr>
+        <th id="tic" data-place=1></th>
+        <th id="tic" class="vert" data-place=2></th>
+        <th id="tic" data-place=3></th>
+      </tr>
+      <tr>
+          <th id="tic" class="hori" data-place=4></th>
+          <th id="tic" class="vert hori" data-place=5></th>
+          <th id="tic" class="hori" data-place=6></th>
+        </tr>
+        <tr>
+          <th id="tic" data-place=7></th>
+          <th id="tic" class="vert" data-place=8></th>
+          <th id="tic" data-place=9></th>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
